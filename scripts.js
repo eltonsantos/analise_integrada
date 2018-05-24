@@ -1,4 +1,4 @@
-var customPopup1 = "Mozilla Toronto Offices<br/><img src='http://joshuafrazier.info/images/maptime.gif' alt='maptime logo gif' width='350px'/>";
+var customPopup1 = "Mozilla Toronto Offices<br/><img src='1.jpg' alt='maptime logo gif' width='350px'/>";
 
 var customOptions1 =
         {
@@ -46,7 +46,7 @@ for (var i = 0, latlngs = [], len = rotas.length; i < len; i++){
 */
 
 var route = L.featureGroup([
-    L.marker(r1).bindPopup(customPopup1, customOptions1),
+    L.marker(r1).on('click', onClickTest),
     L.polyline([r1, r2]),
     L.marker(r2).bindPopup(customPopup2, customOptions2),
     L.polyline([r2, r3]),
@@ -168,10 +168,10 @@ var watercolorMap = L.tileLayer(
 }).addTo(map);
 
 var baseLayers = {
-    "Stamen Terrain": terrainMap,
     "Stamen Toner": tonerMap,
     "Stamen Watercolor" : watercolorMap,
-    "OpenStreetmap": openMap
+    "OpenStreetmap": openMap,
+    "Stamen Terrain": terrainMap
 };
 
 L.control.layers(baseLayers).addTo(map);
@@ -184,3 +184,27 @@ route.on('snakestart snake snakeend', function(ev){
     console.log(ev.type);
 });
 
+
+
+function onClickTest(e){
+    sidebar.show();
+}
+
+var sidebar = L.control.sidebar('sidebar', {
+    closeButton: true,
+    position: 'left'
+});
+
+map.addControl(sidebar);
+
+setTimeout(function () {
+    sidebar.show();
+}, 500);
+
+map.on('click', function () {
+    sidebar.hide();
+});
+
+L.DomEvent.on(sidebar.getCloseButton(), 'click', function () {
+    console.log('Close button clicked.');
+});
