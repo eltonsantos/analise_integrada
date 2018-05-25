@@ -46,7 +46,7 @@ for (var i = 0, latlngs = [], len = rotas.length; i < len; i++){
 */
 
 var route = L.featureGroup([
-    L.marker(r1).on('click', onClickTest),
+    L.marker(r1).bindPopup(customPopup1, customOptions1),
     L.polyline([r1, r2]),
     L.marker(r2).bindPopup(customPopup2, customOptions2),
     L.polyline([r2, r3]),
@@ -118,7 +118,13 @@ L.marker(vlc)
 */
 //var path = L.polyline(latlngs);
 
-var map = L.map('map').setView([-3.8053, -39.9051], 9);
+//var map = L.map('map').setView([-3.8053, -39.9051], 11);
+var map = L.map('map',{
+    minZoom: 9,
+    maxZoom: 14,
+    zoomControl: false                // set to false !
+  }).setView([-3.8053, -39.9051], 10);   // sets the reusable home position
+
 /*
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a target="_blank" href="https://openstreetmap.org" title="&copy; OpenStreetMap contributors">OpenStreetMap</a> contributors',
@@ -140,9 +146,6 @@ var osmLink = "<a href='http://www.openstreetmap.org'>Open StreetMap</a>";
 
 attrLink = "Map tiles by <a href='http://stamen.com'>Stamen Design</a>, under <a href='http://creativecommons.org/licences/by/3.0'>CC BY 3.0</a>. Data by <a href='http://www.openstreetmap.org'>Open StreetMap</a>, under <a href='http://creativecommons.org/licences/by-sa/3.0'>CC BY SA</a>";
 
-attrLinkToner = "Map tiles by <a href='http://stamen.com'>Stamen Design</a>, under <a href='http://creativecommons.org/licences/by/3.0'>CC BY 3.0</a>. Data by <a href='http://www.openstreetmap.org'>Open StreetMap</a>, under <a href='http://www.openstreetmap.org/copyright'>ODbL</a>.";
-
-//rotas.bindPopup("Hello world");
 var openMap = L.tileLayer(
 "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: osmLink,
@@ -155,21 +158,7 @@ var terrainMap = L.tileLayer(
     maxZoom: 18
 }).addTo(map);
 
-var tonerMap = L.tileLayer(
-"http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png", {
-attribution: attrLinkToner,
-maxZoom: 18
-}).addTo(map);
-
-var watercolorMap = L.tileLayer(
-"http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg", {
-    attribution: attrLink,
-    maxZoom: 18
-}).addTo(map);
-
 var baseLayers = {
-    "Stamen Toner": tonerMap,
-    "Stamen Watercolor" : watercolorMap,
     "OpenStreetmap": openMap,
     "Stamen Terrain": terrainMap
 };
@@ -185,7 +174,7 @@ route.on('snakestart snake snakeend', function(ev){
 });
 
 
-
+/*
 function onClickTest(e){
     sidebar.show();
 }
@@ -208,3 +197,4 @@ map.on('click', function () {
 L.DomEvent.on(sidebar.getCloseButton(), 'click', function () {
     console.log('Close button clicked.');
 });
+*/

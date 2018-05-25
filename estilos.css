@@ -1,4 +1,228 @@
-#map {
-    width: 100%;
-    height: 800px;
+body {
+    padding: 0;
+    margin: 0;
 }
+html, body, #map {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px; }
+  
+  a {
+    color: #D35400; }
+  
+  hr {
+    border-top: 1px solid #1b5479; }
+  
+  .switch {
+    display: inline-block;
+    margin: 4px;
+    padding: 2px 6px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ddd; }
+    .switch.showing {
+      background-color: #287fb8; }
+  
+  /** Sidebar display */
+  @media (max-width: 990px) {
+    .sidebar {
+      width: 25%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      z-index: 1000;
+      padding: 1%;
+      background: rgba(0, 0, 0, 0.8);
+      color: #3694d3; }
+      .sidebar .header {
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 15%; }
+        .sidebar .header .blue {
+          font-size: 1.5em;
+          margin-left: 0.1em; }
+        .sidebar .header .orange {
+          font-size: 40px;
+          line-height: 0.8em; }
+      .sidebar .orange {
+        color: #D35400; }
+      .sidebar .loading {
+        margin-top: 30%;
+        margin-left: 0.1em;
+        width: 100%;
+        font-size: 0.8em;
+        text-align: center; }
+        .sidebar .loading .sk-spinner {
+          background-color: #D35400; }
+        .sidebar .loading p {
+          margin-top: 1em; }
+      .sidebar .marker-info {
+        margin-left: 0.1em;
+        width: 100%;
+        font-size: 1em; }
+        .sidebar .marker-info .event {
+          font-weight: 700;
+          font-size: 0.7em;
+          text-transform: uppercase; }
+        .sidebar .marker-info .date {
+          font-weight: 300;
+          font-size: 0.95em; }
+        .sidebar .marker-info .address {
+          font-size: 0.9em; }
+        .sidebar .marker-info .city {
+          font-size: 0.8em;
+          font-weight: 700; }
+      .sidebar .controls {
+        width: 100%;
+        font-size: 0.8em;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: left;
+        cursor: pointer;
+        padding-bottom: 15%; }
+        .sidebar .controls .lbl {
+          font-size: 0.8em;
+          font-weight: 300;
+          padding-bottom: 1%; }
+        .sidebar .controls a {
+          color: #1b5479;
+          padding-top: 0.1em;
+          padding-bottom: 0.1em; }
+        .sidebar .controls a:hover, .sidebar .controls a:focus {
+          color: #3694d3;
+          text-decoration: none; }
+      .sidebar .footer {
+        width: 25%;
+        font-size: 0.7em;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        text-align: center; } }
+  
+  @media (min-width: 990px) {
+    .sidebar {
+      width: 20%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      z-index: 1000;
+      padding: 1%;
+      background: rgba(0, 0, 0, 0.8);
+      color: #3694d3; }
+      .sidebar .header {
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 5%; }
+        .sidebar .header .blue {
+          font-size: 2em;
+          margin-left: 0.1em; }
+        .sidebar .header .orange {
+          font-size: 4em;
+          line-height: 0.8em; }
+      .sidebar .orange {
+        color: #D35400; }
+      .sidebar .loading {
+        margin-top: 5%;
+        margin-left: 0.1em;
+        width: 100%;
+        font-size: 0.8em;
+        text-align: center; }
+        .sidebar .loading .sk-spinner {
+          background-color: #D35400; }
+        .sidebar .loading p {
+          margin-top: 1em; }
+      .sidebar .marker-info {
+        margin-top: 5%;
+        margin-left: 0.1em;
+        width: 100%;
+        font-size: 1.3em; }
+        .sidebar .marker-info .event {
+          font-weight: 700;
+          text-transform: uppercase; }
+        .sidebar .marker-info .date {
+          font-weight: 300;
+          font-size: 0.95em; }
+        .sidebar .marker-info .address {
+          font-size: 0.9em; }
+        .sidebar .marker-info .city {
+          font-size: 0.8em;
+          font-weight: 700; }
+      .sidebar .controls {
+        width: 100%;
+        font-size: 1em;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        cursor: pointer; }
+        .sidebar .controls .lbl {
+          font-size: 0.8em;
+          font-weight: 300;
+          padding-bottom: 1%; }
+        .sidebar .controls a {
+          color: #1b5479; }
+        .sidebar .controls a:hover, .sidebar .controls a:focus {
+          color: #3694d3;
+          text-decoration: none; }
+      .sidebar .footer {
+        width: 20%;
+        font-size: 0.8em;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        text-align: center; } }
+  
+  /** Map Styling */
+  .leaflet-control-container.leaflet-left {
+    right: 0; }
+  
+  .marker-cluster-small {
+    background-color: rgba(54, 148, 211, 0.3); }
+    .marker-cluster-small div {
+      background-color: rgba(54, 148, 211, 0.8); }
+    .marker-cluster-small span {
+      color: white; }
+  
+  .marker-cluster-medium {
+    background-color: rgba(40, 127, 184, 0.3); }
+    .marker-cluster-medium div {
+      background-color: rgba(40, 127, 184, 0.8); }
+    .marker-cluster-medium span {
+      color: white; }
+  
+  .marker-cluster-large {
+    background-color: rgba(33, 104, 151, 0.3); }
+    .marker-cluster-large div {
+      background-color: rgba(33, 104, 151, 0.8); }
+    .marker-cluster-large span {
+      color: white; }
+  
+  /** Link effect styling */
+  .cl-effect-1 a::before, .cl-effect-1 a::after {
+    display: inline-block;
+    opacity: 0;
+    transition: -webkit-transform 0.3s, opacity 0.2s;
+    transition: transform 0.3s, opacity 0.2s; }
+  
+  .cl-effect-1 a::before {
+    margin-right: 10px;
+    content: '[';
+    -webkit-transform: translateX(20px);
+    transform: translateX(20px); }
+  
+  .cl-effect-1 a::after {
+    margin-left: 10px;
+    content: ']';
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px); }
+  
+  .cl-effect-1 a:hover::before, .cl-effect-1 a:hover::after, .cl-effect-1 a:focus::before, .cl-effect-1 a:focus::after {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px); }
+  
