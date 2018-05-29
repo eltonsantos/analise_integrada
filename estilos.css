@@ -144,7 +144,9 @@ body {
         font-size: 1.3em; }
         .sidebar .marker-info .event {
           font-weight: 700;
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          overflow: auto;
+          height: 250px; }
         .sidebar .marker-info .date {
           font-weight: 300;
           font-size: 0.95em; }
@@ -225,4 +227,8 @@ body {
     opacity: 1;
     -webkit-transform: translateX(0px);
     transform: translateX(0px); }
-  
+
+.leaflet-touch .leaflet-control-layers-toggle {
+  width: 30px;
+  height: 30px;
+}
