@@ -33,7 +33,7 @@ body {
       width: 65%;
       position: fixed;
       top: 0;
-      left: 25px;
+      left: 35px;
       bottom: 0;
       z-index: 1000;
       padding: 1%;
@@ -105,6 +105,7 @@ body {
         bottom: 0;
         left: 25px;
         text-align: center;
+        display: none;
         /*background-color: #000;
         line-height: 30px;*/
        } }
@@ -114,7 +115,7 @@ body {
       width: 20%;
       position: fixed;
       top: 0;
-      left: 25px;
+      left: 35px;
       bottom: 0;
       z-index: 1000;
       padding: 1%;
@@ -262,7 +263,7 @@ body {
   bottom:0;
   height:100%;
   left:0;
-  width:25px;
+  width:35px;
   overflow:hidden;
   -webkit-transition:width .05s linear;
   transition:width .05s linear;
@@ -271,7 +272,7 @@ body {
   }
   
   .main-menu>ul {
-  margin:7px 0;
+  margin:7px 5px;
   }
   
   .main-menu li {

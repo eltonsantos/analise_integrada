@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Análise Integrada do Ambiente</title>
-
+    <meta name="author" content="Elton Santos" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="description" content="Atividade referente a disciplina de Análise Integrada do Ambiente ministrada pelo professor Marcos Nogueira do curso de especialização em Geoprocessamento aplicado à Análise Ambiental e aos Recursos Hídricos - UECE." />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
@@ -17,6 +19,13 @@
 
     
     <nav class="main-menu">
+        <ul>
+            <li>
+                <a href="#" data-toggle="modal" data-target="#myModal">
+                    <i class="fa fa-info-circle fa-2x"></i>
+                </a>
+            </li>
+        </ul>
         <ul class="logout">
             <li>
                 <a href="#">
@@ -57,10 +66,24 @@
     </div>
 
     <div id="map"></div>
-<!--
-    <br />
-    
-    <button onclick='snake()' class="btn btn-warning">Clique aqui!</button>-->
+
+    <div class="modal fade bd-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><b>14ª Turma de Geoprocessamento</b></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><b>Disciplina:</b> Análise Integrada do Ambiente</p>
+                    <p><b>Professor:</b> Marcos Nogueira</p>
+                    <p><b>Equipe:</b> Edson Correia, Elton Santos, Igor Pedroza, Luã e Thiago Santos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
@@ -75,11 +98,10 @@
             $('.logout').click(function(){
                 $('.sidebar').toggle();
             });
-            /*
-            var $yourSidebar = $(".setinha");
-            $(document).on("click.toggleNav touch.toggleNav", ".show", function(){ 
-                $yourSidebar.toggleClass("open");
-            });*/
+            
+            $('#myModal').modal({
+                show: false
+            });
 
         });
     </script>
