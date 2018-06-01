@@ -12,7 +12,7 @@ paradas = {
             "type" : "Feature", 
             "properties" : {  
                 "nome" : "Parada 1", 
-                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='350px'/>",
+                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
@@ -27,7 +27,7 @@ paradas = {
             "type" : "Feature", 
             "properties" : {  
                 "nome" : "Parada 2", 
-                "imagem" : "<img src='2.jpg' alt='maptime logo gif' width='350px'/>",
+                "imagem" : "<img src='2.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
@@ -42,7 +42,7 @@ paradas = {
             "type" : "Feature", 
             "properties" : {  
                 "nome" : "Parada 3", 
-                "imagem" : "<img src='3.jpg' alt='maptime logo gif' width='350px'/>",
+                "imagem" : "<img src='3.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
@@ -57,7 +57,7 @@ paradas = {
             "type" : "Feature", 
             "properties" : {  
                 "nome" : "Parada 4", 
-                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='350px'/>",
+                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
@@ -72,7 +72,7 @@ paradas = {
             "type" : "Feature", 
             "properties" : {  
                 "nome" : "Parada 5", 
-                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='350px'/>",
+                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
@@ -87,7 +87,7 @@ paradas = {
             "type" : "Feature", 
             "properties" : {  
                 "nome" : "Parada 6", 
-                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='350px'/>",
+                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
@@ -102,7 +102,7 @@ paradas = {
             "type" : "Feature", 
             "properties" : {  
                 "nome" : "Parada 7", 
-                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='350px'/>",
+                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
@@ -117,7 +117,7 @@ paradas = {
             "type" : "Feature", 
             "properties" : {  
                 "nome" : "Parada 8", 
-                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='350px'/>",
+                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
@@ -132,7 +132,7 @@ paradas = {
             "type" : "Feature", 
             "properties" : {  
                 "nome" : "Parada 9", 
-                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='350px'/>",
+                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
@@ -147,7 +147,7 @@ paradas = {
             "type" : "Feature", 
             "properties" : {  
                 "nome" : "Parada 10", 
-                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='350px'/>",
+                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
@@ -162,7 +162,7 @@ paradas = {
             "type" : "Feature", 
             "properties" : {  
                 "nome" : "Parada 11", 
-                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='350px'/>",
+                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
@@ -177,7 +177,7 @@ paradas = {
             "type" : "Feature", 
             "properties" : {  
                 "nome" : "Parada 12", 
-                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='350px'/>",
+                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
@@ -192,7 +192,7 @@ paradas = {
             "type" : "Feature", 
             "properties" : {  
                 "nome" : "Parada 13", 
-                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='350px'/>",
+                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
@@ -207,7 +207,7 @@ paradas = {
             "type" : "Feature", 
             "properties" : {  
                 "nome" : "Parada 14", 
-                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='350px'/>",
+                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
@@ -222,7 +222,7 @@ paradas = {
             "type" : "Feature", 
             "properties" : {  
                 "nome" : "Parada 15", 
-                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='350px'/>",
+                "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
