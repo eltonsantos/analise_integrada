@@ -42,7 +42,7 @@ body {
       .sidebar .header {
         font-weight: 700;
         text-transform: uppercase;
-        margin-bottom: 15%; }
+        margin-bottom: 5%; }
         .sidebar .header .blue {
           font-size: 1.5em;
           margin-left: 0.1em; }
@@ -86,7 +86,7 @@ body {
         font-weight: 700;
         text-align: left;
         cursor: pointer;
-        padding-bottom: 15%; }
+        padding-bottom: 5%; }
         .sidebar .controls .lbl {
           font-size: 0.8em;
           font-weight: 300;
