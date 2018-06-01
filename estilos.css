@@ -70,7 +70,7 @@ body {
           font-size: 0.7em;
           text-transform: uppercase;
           overflow: auto;
-          height: 160px; }
+          height: 100px; }
         .sidebar .marker-info .date {
           font-weight: 300;
           font-size: 0.95em; }
