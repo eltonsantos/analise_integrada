@@ -22,12 +22,18 @@ function onEachFeature(feature, layer){
 */
 
 function onEachFeature(feature, layer){
-    layer.on('click', function(e){
-        $('.orange').html(feature.properties.nome);
-        $('.city').html(feature.properties.imagem);
-        $('.event').html(feature.properties.descricao);
+    layer.on({
+        click: function(e){
 
-        console.log(e.target);
+            var latLngs = [e.target.getLatLng()];
+            var markerBounds = L.latLngBounds(latLngs);
+            map.fitBounds(markerBounds);
+
+            $('.orange').html(feature.properties.nome);
+            $('.city').html(feature.properties.imagem);
+            $('.event').html(feature.properties.descricao);
+
+        }
 
     });
     
