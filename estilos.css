@@ -44,7 +44,7 @@ body {
         text-transform: uppercase;
         margin-bottom: 15%; }
         .sidebar .header .blue {
-          font-size: 1.5em;
+          /*font-size: 1.5em;*/
           margin-left: 0.1em; }
         .sidebar .header .orange {
           font-size: 40px;
@@ -179,6 +179,20 @@ body {
         bottom: 0;
         left: 0;
         text-align: center; } }
+
+
+@media (max-width: 480px) {
+  .blue {
+    font-size: 10px;
+    color: #fff;
+  }
+  .controls button {
+    font-size: 10px;
+  }
+  .city {
+    display: none;
+  }
+}
   
   /** Map Styling */
   .leaflet-control-container.leaflet-left {
