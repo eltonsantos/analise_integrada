@@ -44,7 +44,7 @@ body {
         text-transform: uppercase;
         margin-bottom: 15%; }
         .sidebar .header .blue {
-          /*font-size: 1.5em;*/
+          font-size: 1.5em;
           margin-left: 0.1em; }
         .sidebar .header .orange {
           font-size: 40px;
@@ -123,12 +123,12 @@ body {
       .sidebar .header {
         font-weight: 700;
         text-transform: uppercase;
-        margin-bottom: 2%; }
+        margin-bottom: 5%; }
         .sidebar .header .blue {
           font-size: 2em;
           margin-left: 0.1em; }
         .sidebar .header .orange {
-          font-size: 3.8em;
+          font-size: 2.9em;
           line-height: 0.8em; }
       .sidebar .orange {
         color: #D35400; }
@@ -163,7 +163,7 @@ body {
       .sidebar .controls {
         width: 100%;
         font-size: 1em;
-        margin-bottom: 2%;
+        margin-bottom: 5%;
         text-transform: uppercase;
         font-weight: 700;
         text-align: center;
@@ -182,30 +182,12 @@ body {
         font-size: 0.8em;
         position: fixed;
         bottom: 0;
-<<<<<<< HEAD
         left: 25px;
         text-align: center;
         /*background-color: #000;
         line-height: 30px;*/
       } }
-=======
-        left: 0;
-        text-align: center; } }
 
-
-@media (max-width: 480px) {
-  .blue {
-    font-size: 10px;
-    color: #fff;
-  }
-  .controls button {
-    font-size: 10px;
-  }
-  .city {
-    display: none;
-  }
-}
->>>>>>> 8cd758fc95db96b7f668dcfa237c9deadb81cd92
   
   /** Map Styling */
   .leaflet-control-container.leaflet-left {
