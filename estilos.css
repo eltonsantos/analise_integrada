@@ -44,7 +44,7 @@ body {
         text-transform: uppercase;
         margin-bottom: 15%; }
         .sidebar .header .blue {
-          font-size: 1.5em;
+          /*font-size: 1.5em;*/
           margin-left: 0.1em; }
         .sidebar .header .orange {
           font-size: 40px;
@@ -182,11 +182,30 @@ body {
         font-size: 0.8em;
         position: fixed;
         bottom: 0;
+<<<<<<< HEAD
         left: 25px;
         text-align: center;
         /*background-color: #000;
         line-height: 30px;*/
       } }
+=======
+        left: 0;
+        text-align: center; } }
+
+
+@media (max-width: 480px) {
+  .blue {
+    font-size: 10px;
+    color: #fff;
+  }
+  .controls button {
+    font-size: 10px;
+  }
+  .city {
+    display: none;
+  }
+}
+>>>>>>> 8cd758fc95db96b7f668dcfa237c9deadb81cd92
   
   /** Map Styling */
   .leaflet-control-container.leaflet-left {

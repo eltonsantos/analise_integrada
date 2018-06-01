@@ -4,17 +4,38 @@ var map = L.map('map',{
     zoomControl: false
   }).setView([-3.8053, -39.9051], 9);
 
+
+
+
 var rotas = L.geoJSON(paradas, {
-    onEachFeature: onEachFeature,
-    click: markerOnClick
+    onEachFeature: onEachFeature
 }).addTo(map);
+
+/*
+function onEachFeature(feature, layer){
+    layer.on('click', function(e){
+        $('.orange').html(feature.properties.nome);
+        $('.city').html(feature.properties.imagem);
+        $('.event').html(feature.properties.descricao);
+    });
+}
+*/
 
 function onEachFeature(feature, layer){
     layer.on('click', function(e){
         $('.orange').html(feature.properties.nome);
         $('.city').html(feature.properties.imagem);
-        $('.event').html(feature.properties.descricao);        
-    })
+        $('.event').html(feature.properties.descricao);
+
+        console.log(e.target);
+
+    });
+    
+}
+
+function zoomToFeature(e) {
+    console.log("pass here")
+    map.fitBounds(e.target.getBounds());
 }
 
 function markerOnClick(e)
