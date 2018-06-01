@@ -29,6 +29,11 @@
                     <i class="fa fa-info-circle fa-2x"></i>
                 </a>
             </li>
+            <li>
+                <a href="#" class="btnLocate">
+                    <i class="fa fa-home fa-2x"></i>
+                </a>
+            </li>
         </ul>
         <ul class="logout">
             <li>
@@ -105,6 +110,10 @@
             
             $('#myModal').modal({
                 show: false
+            });
+
+            $('.btnLocate').click(function(){
+                map.setView([-3.8053, -39.9051], 9);
             });
 
         });

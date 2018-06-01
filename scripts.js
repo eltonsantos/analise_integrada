@@ -1,5 +1,5 @@
 var map = L.map('map',{
-    minZoom: 9,
+    minZoom: 7,
     maxZoom: 13,
     zoomControl: false
   }).setView([-3.8053, -39.9051], 9);
@@ -90,3 +90,4 @@ function snake() {
 rotas.on('snakestart snake snakeend', function(ev){
     console.log(ev.type);
 });
+
