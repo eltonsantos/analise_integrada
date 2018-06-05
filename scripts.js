@@ -5,21 +5,10 @@ var map = L.map('map',{
   }).setView([-3.8053, -39.9051], 9);
 
 
-
-
 var rotas = L.geoJSON(paradas, {
     onEachFeature: onEachFeature
 }).addTo(map);
 
-/*
-function onEachFeature(feature, layer){
-    layer.on('click', function(e){
-        $('.orange').html(feature.properties.nome);
-        $('.city').html(feature.properties.imagem);
-        $('.event').html(feature.properties.descricao);
-    });
-}
-*/
 
 function onEachFeature(feature, layer){
     layer.on({
@@ -46,16 +35,14 @@ function zoomToFeature(e) {
 
 function markerOnClick(e)
 {
-  console.log("here")
-  var latLngs = [e.target.getLatLng()];
-  var markerBounds = L.latLngBounds(latLngs);
-  map.fitBounds(markerBounds);
+    console.log("here")
+    var latLngs = [e.target.getLatLng()];
+    var markerBounds = L.latLngBounds(latLngs);
+    map.fitBounds(markerBounds);
 }
 
 var osmLink = "<a href='http://www.openstreetmap.org'>Open StreetMap</a>";
-/*
-attrLink = "Map tiles by <a href='http://stamen.com'>Stamen Design</a>, under <a href='http://creativecommons.org/licences/by/3.0'>CC BY 3.0</a>. Data by <a href='http://www.openstreetmap.org'>Open StreetMap</a>, under <a href='http://creativecommons.org/licences/by-sa/3.0'>CC BY SA</a>";
-*/
+
 var openMap = L.tileLayer(
 "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: osmLink,
@@ -90,4 +77,3 @@ function snake() {
 rotas.on('snakestart snake snakeend', function(ev){
     console.log(ev.type);
 });
-
