@@ -4,13 +4,30 @@ var map = L.map('map',{
     zoomControl: false
   }).setView([-3.8053, -39.9051], 9);
 
+var i = 0;
 
 var rotas = L.geoJSON(paradas, {
-    onEachFeature: onEachFeature
+    onEachFeature: onEachFeature,
+
+    pointToLayer: function(feature, latlng){
+        //console.log("Qtd: " + paradas.features.length)
+
+        i += 1;
+        console.log("Valor de i: " + i)
+        return L.marker(latlng, {
+            icon: new L.AwesomeNumberMarkers({
+                number: i,
+                markerColor: 'purple',
+            }),
+        });
+
+    }
+
 }).addTo(map);
 
 
 function onEachFeature(feature, layer){
+
     layer.on({
         click: function(e){
 
