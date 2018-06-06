@@ -42,10 +42,9 @@
             </li>
         </ul>
         <ul class="logout">
-            <li class="setinha">
+            <li class="setinha" data-toggle="toggle" data-target=".sidebar">
                 <a href="#">
                     <i class="fa fa-chevron-left fa-2x"></i>
-                    <i class="fa fa-chevron-right fa-2x"></i>
                 </a>
             </li>  
         </ul>
@@ -114,6 +113,10 @@
             
             $('.logout').click(function(){
                 $('.sidebar').toggle();
+                //$('.sidebar').toggleClass('sidebar_in');
+                //var selector = $(this).data("target");
+                //$(selector).toggleClass('in');
+                $('.setinha').find('.fa').toggleClass('fa-chevron-right');
             });
             
             $('#myModal').modal({
