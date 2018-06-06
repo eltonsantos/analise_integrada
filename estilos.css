@@ -246,7 +246,7 @@ body {
 }
 
 .setinha {
-  padding: 10px 10px 10px 10px;
+  /*padding: 10px 10px 10px 10px;*/
   color: #fff;
 }
 
@@ -352,3 +352,16 @@ body {
   /*background-color:#5fa2db;*/
   }
   
+#sidebar {
+   -webkit-transition: width 0.3s ease;
+    -moz-transition: width 0.3s ease;
+    -o-transition: width 0.3s ease;
+    transition: width 0.3s ease;}
+
+#demo.in {
+  width: 220px;
+}
+
+.setinha:not([aria-expanded="true"]) .fa.fa-chevron-right, .setinha[aria-expanded="false"] .fa.fa-chevron-right, .setinha[aria-expanded="true"] .fa.fa-chevron-left {
+   display:none;
+}
