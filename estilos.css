@@ -358,9 +358,7 @@ body {
     -o-transition: width 0.3s ease;
     transition: width 0.3s ease;}
 
-#demo.in {
-  width: 220px;
-}
+
 
 .setinha:not([aria-expanded="true"]) .fa.fa-chevron-right, .setinha[aria-expanded="false"] .fa.fa-chevron-right, .setinha[aria-expanded="true"] .fa.fa-chevron-left {
    display:none;
