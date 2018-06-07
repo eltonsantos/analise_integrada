@@ -69,7 +69,7 @@ var camadaMunicipios = L.geoJSON(municipios, {
 }).addTo(map);
 
 function onEachFeature_mun(feature, layerMunicipios){
-    popupMunicipios = feature.properties.mun_toponimia;
+    popupMunicipios = feature.properties.name;
     layerMunicipios.bindPopup(popupMunicipios);
 }
 
