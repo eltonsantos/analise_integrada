@@ -58,7 +58,7 @@ function markerOnClick(e)
     map.fitBounds(markerBounds);
 }
 
-var osmLink = "<a href='http://www.openstreetmap.org'>Open StreetMap</a>";
+var osmLink = "<a href='http://www.openstreetmap.org'>Open StreetMap</a> | <span>Desenvolvido por <a href='https://twitter.com/eltin182' target='blank'>@eltin182</a>. 2018.</span>";
 
 var openMap = L.tileLayer(
 "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
