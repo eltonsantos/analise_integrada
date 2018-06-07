@@ -58,6 +58,21 @@ function markerOnClick(e)
     map.fitBounds(markerBounds);
 }
 
+var camadaMunicipios = L.geoJSON(municipios, {
+    style: function(feature){
+        return {
+            color: "#091",
+		    fillColor: "#aa9" 
+        }
+    },
+    onEachFeature: onEachFeature_mun
+}).addTo(map);
+
+function onEachFeature_mun(feature, layerMunicipios){
+    popupMunicipios = feature.properties.mun_toponimia;
+    layerMunicipios.bindPopup(popupMunicipios);
+}
+
 var osmLink = "<a href='http://www.openstreetmap.org'>Open StreetMap</a> | <span>Desenvolvido por <a href='https://twitter.com/eltin182' target='blank'>@eltin182</a>. 2018.</span>";
 
 var openMap = L.tileLayer(
@@ -72,6 +87,10 @@ var terrainMap = L.tileLayer(
     maxZoom: 18
 }).addTo(map);
 
+var objCamadas = {
+    "Municípios" : camadaMunicipios
+};
+
 var baseLayers = {
     "OpenStreetmap": openMap,
     "Stamen Terrain": terrainMap
@@ -81,7 +100,7 @@ L.control.zoom({
     position:'topright'
 }).addTo(map);
 
-L.control.layers(baseLayers).addTo(map);
+L.control.layers(baseLayers, objCamadas).addTo(map);
 
 for (var i = 0, latlngs = [], len = rotas.length; i < len; i++){
     latlngs.push(new L.LatLng(rotas[i][0], rotas[i][1]));
