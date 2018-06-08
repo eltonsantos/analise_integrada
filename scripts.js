@@ -62,7 +62,9 @@ var camadaMunicipios = L.geoJSON(municipios, {
     style: function(feature){
         return {
             color: "#091",
-		    fillColor: "#aa9" 
+            fillColor: "#aa9",
+            dashArray: '3',
+            weight: 2
         }
     },
     onEachFeature: onEachFeature_mun
