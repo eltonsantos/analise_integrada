@@ -121,7 +121,8 @@ body {
       z-index: 1000;
       padding: 1%;
       background: rgba(0, 0, 0, 0.8);
-      color: #3694d3; }
+      color: #3694d3;
+      overflow: auto;  }
       .sidebar .header {
         font-weight: 700;
         text-transform: uppercase;
