@@ -2,7 +2,7 @@ var map = L.map('map',{
     minZoom: 7,
     maxZoom: 13,
     zoomControl: false
-  }).setView([-3.8053, -39.9051], 9);
+  }).setView([-3.6053, -40.1051], 9);
 
 var i = 0;
 
@@ -17,7 +17,7 @@ var rotas = L.geoJSON(paradas, {
         return L.marker(latlng, {
             icon: new L.AwesomeNumberMarkers({
                 number: i,
-                markerColor: 'purple',
+                markerColor: 'beige',
             }),
         });
 

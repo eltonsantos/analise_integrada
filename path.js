@@ -11,7 +11,7 @@ paradas = {
         { 
             "type" : "Feature", 
             "properties" : {  
-                "nome" : "Parada 1", 
+                "nome" : "Fortaleza", 
                 "imagem" : "<img src='1.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
@@ -26,210 +26,345 @@ paradas = {
         { 
             "type" : "Feature", 
             "properties" : {  
-                "nome" : "Parada 2", 
+                "nome" : "Caucaia", 
                 "imagem" : "<img src='2.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
                 "type" : "Point", 
                 "coordinates" : [
-                    -38.673248291015625,
-                    -3.683373343187846
+                    -38.754064,
+                    -3.7079856
                 ] 
             }
         },
         { 
             "type" : "Feature", 
             "properties" : {  
-                "nome" : "Parada 3", 
+                "nome" : "São Gonçalo do Amarante", 
                 "imagem" : "<img src='3.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
                 "type" : "Point", 
                 "coordinates" : [
-                    -38.90945434570312,
-                    -3.6237565991292993
+                    -38.9749811,
+                    -3.6107597
                 ] 
             }
         },
         { 
             "type" : "Feature", 
             "properties" : {  
-                "nome" : "Parada 4", 
+                "nome" : "Paracuru", 
                 "imagem" : "<img src='4.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
                 "type" : "Point", 
                 "coordinates" : [
-                    -39.217071533203125,
-                    -3.653908091190838
+                    -39.0307387,
+                    -3.4174916
                 ] 
             }
         },
         { 
             "type" : "Feature", 
             "properties" : {  
-                "nome" : "Parada 5", 
+                "nome" : "Paraipaba", 
                 "imagem" : "<img src='5.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
                 "type" : "Point", 
                 "coordinates" : [
-                    -39.61395263671875,
-                    -3.513421045640032
+                    -39.1552137,
+                    -3.4465736
                 ] 
             }
         },
         { 
             "type" : "Feature", 
             "properties" : {  
-                "nome" : "Parada 6", 
+                "nome" : "Trairi", 
                 "imagem" : "<img src='6.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
                 "type" : "Point", 
                 "coordinates" : [
-                    -40.02593994140625,
-                    -3.524386660147952
+                    -39.3273467,
+                    -3.3578476
                 ] 
             }
         },
         { 
             "type" : "Feature", 
             "properties" : {  
-                "nome" : "Parada 7", 
+                "nome" : "São Luís do Curu", 
                 "imagem" : "<img src='7.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
                 "type" : "Point", 
                 "coordinates" : [
-                    -40.352783203125,
-                    -3.6449998008920375
+                    -39.2656637,
+                    -3.6336476
                 ] 
             }
         },
         { 
             "type" : "Feature", 
             "properties" : {  
-                "nome" : "Parada 8", 
+                "nome" : "Umirim", 
                 "imagem" : "<img src='8.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
                 "type" : "Point", 
                 "coordinates" : [
-                    -40.96527099609375,
-                    -3.702559495001471
+                    -39.3491387,
+                    -3.6778566
                 ] 
             }
         },
         { 
             "type" : "Feature", 
             "properties" : {  
-                "nome" : "Parada 9", 
+                "nome" : "Tururu", 
                 "imagem" : "<img src='0.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
                 "type" : "Point", 
                 "coordinates" : [
-                    -41.10809326171874,
-                    -3.825889022828324
+                    -39.4360327,
+                    -3.5987096
                 ] 
             }
         },
         { 
             "type" : "Feature", 
             "properties" : {  
-                "nome" : "Parada 10", 
+                "nome" : "Uruburetama", 
                 "imagem" : "<img src='0.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
                 "type" : "Point", 
                 "coordinates" : [
-                    -40.79498291015625,
-                    -4.305329913647438
+                    -39.5089707,
+                    -3.6236196
                 ] 
             }
         },
         { 
             "type" : "Feature", 
             "properties" : {  
-                "nome" : "Parada 11", 
+                "nome" : "Itapipoca", 
                 "imagem" : "<img src='0.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
                 "type" : "Point", 
                 "coordinates" : [
-                    -39.87762451171875,
-                    -4.165636821607835
+                    -39.5836527,
+                    -3.5065936
                 ] 
             }
         },
         { 
             "type" : "Feature", 
             "properties" : {  
-                "nome" : "Parada 12", 
+                "nome" : "Amontada", 
                 "imagem" : "<img src='0.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
                 "type" : "Point", 
                 "coordinates" : [
-                    -39.40521240234375,
-                    -4.0286587193699095
+                    -39.8326907,
+                    -3.3603216
                 ] 
             }
         },
         { 
             "type" : "Feature", 
             "properties" : {  
-                "nome" : "Parada 13", 
+                "nome" : "Itarema", 
                 "imagem" : "<img src='0.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
                 "type" : "Point", 
                 "coordinates" : [
-                    -39.07012939453125,
-                    -3.954680902867266
+                    -39.8867717,
+                    -3.0438226
                 ] 
             }
         },
         { 
             "type" : "Feature", 
             "properties" : {  
-                "nome" : "Parada 14", 
+                "nome" : "Acaraú", 
                 "imagem" : "<img src='0.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
                 "type" : "Point", 
                 "coordinates" : [
-                    -38.82843017578125,
-                    -3.877956193557512
+                    -40.1205427,
+                    -2.8997746
                 ] 
             }
         },
         { 
             "type" : "Feature", 
             "properties" : {  
-                "nome" : "Parada 15", 
+                "nome" : "Morrinhos", 
                 "imagem" : "<img src='0.jpg' alt='maptime logo gif' width='100%'/>",
                 "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
             }, 
             "geometry" : { 
                 "type" : "Point", 
                 "coordinates" : [
-                    -38.64990234375,
-                    -3.798483975036962
+                    -40.1244717,
+                    -3.2273686
+                ] 
+            }
+        },
+        { 
+            "type" : "Feature", 
+            "properties" : {  
+                "nome" : "Santana do Acaraú", 
+                "imagem" : "<img src='0.jpg' alt='maptime logo gif' width='100%'/>",
+                "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+            }, 
+            "geometry" : { 
+                "type" : "Point", 
+                "coordinates" : [
+                    -40.2121547,
+                    -3.4616896
+                ] 
+            }
+        },
+        { 
+            "type" : "Feature", 
+            "properties" : {  
+                "nome" : "Sobral", 
+                "imagem" : "<img src='0.jpg' alt='maptime logo gif' width='100%'/>",
+                "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+            }, 
+            "geometry" : { 
+                "type" : "Point", 
+                "coordinates" : [
+                    -40.3503807,
+                    -3.684694
+                ] 
+            }
+        },
+        { 
+            "type" : "Feature", 
+            "properties" : {  
+                "nome" : "Coreaú", 
+                "imagem" : "<img src='0.jpg' alt='maptime logo gif' width='100%'/>",
+                "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+            }, 
+            "geometry" : { 
+                "type" : "Point", 
+                "coordinates" : [
+                    -40.6596107,
+                    -3.5486476
+                ] 
+            }
+        },
+        { 
+            "type" : "Feature", 
+            "properties" : {  
+                "nome" : "Frecheirinha", 
+                "imagem" : "<img src='0.jpg' alt='maptime logo gif' width='100%'/>",
+                "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+            }, 
+            "geometry" : { 
+                "type" : "Point", 
+                "coordinates" : [
+                    -40.8193127,
+                    -3.7564106
+                ] 
+            }
+        },
+        { 
+            "type" : "Feature", 
+            "properties" : {  
+                "nome" : "Tianguá", 
+                "imagem" : "<img src='0.jpg' alt='maptime logo gif' width='100%'/>",
+                "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+            }, 
+            "geometry" : { 
+                "type" : "Point", 
+                "coordinates" : [
+                    -41.0366617,
+                    -3.7914686
+                ] 
+            }
+        },
+        { 
+            "type" : "Feature", 
+            "properties" : {  
+                "nome" : "Forquilha", 
+                "imagem" : "<img src='0.jpg' alt='maptime logo gif' width='100%'/>",
+                "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+            }, 
+            "geometry" : { 
+                "type" : "Point", 
+                "coordinates" : [
+                    -40.2657807,
+                    -3.8003126
+                ] 
+            }
+        },
+        { 
+            "type" : "Feature", 
+            "properties" : {  
+                "nome" : "Irauçuba", 
+                "imagem" : "<img src='0.jpg' alt='maptime logo gif' width='100%'/>",
+                "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+            }, 
+            "geometry" : { 
+                "type" : "Point", 
+                "coordinates" : [
+                    -39.7850567,
+                    -3.7487836
+                ] 
+            }
+        },
+        { 
+            "type" : "Feature", 
+            "properties" : {  
+                "nome" : "Itapajé", 
+                "imagem" : "<img src='0.jpg' alt='maptime logo gif' width='100%'/>",
+                "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+            }, 
+            "geometry" : { 
+                "type" : "Point", 
+                "coordinates" : [
+                    -39.5841277,
+                    -3.6850076
+                ] 
+            }
+        },
+        { 
+            "type" : "Feature", 
+            "properties" : {  
+                "nome" : "Pentecoste", 
+                "imagem" : "<img src='0.jpg' alt='maptime logo gif' width='100%'/>",
+                "descricao" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+            }, 
+            "geometry" : { 
+                "type" : "Point", 
+                "coordinates" : [
+                    -39.2604317,
+                    -3.7923326
                 ] 
             }
         }
